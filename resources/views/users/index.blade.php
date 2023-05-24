@@ -3,7 +3,7 @@
 
 @section('content')
 
-<h1>Lista de Usuarios
+<h1 class="txt-2x1 font-semibold leading-tigh py-2">Lista de Usuarios
    ( <a href="{{route('users.create')}}">Add</a> )
 </h1>
 <form action="{{route('users.index')}}" method="get">
